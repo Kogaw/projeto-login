@@ -71,9 +71,23 @@ div#form > p {
     font-size: 0.8em;
 }
 
-div > span{
+div.campo > span{
     color: white;
-    margin: 3px;
+    font-size: 2em;
+    padding: 5px;
+    width: 40px;
+
+}
+
+div.campo > input{
+    color: #49a09d;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 90%;
+    transform: translateY(-10px);
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
 }
 
 form >div.campo{
